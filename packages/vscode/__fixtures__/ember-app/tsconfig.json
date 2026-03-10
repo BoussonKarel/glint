@@ -2,5 +2,14 @@
   "extends": "../../../../tsconfig.compileroptions.json",
   "compilerOptions": {
     "baseUrl": "."
+  },
+  "glint": {
+    "additionalSpecialForms": {
+      "imports": {
+        "ember-truth-helpers": {
+          "and": "&&"
+        }
+      }
+    }
   }
 }
